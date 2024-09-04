@@ -25,9 +25,6 @@ from homeassistant.components.climate.const import (
     FAN_TOP,
     SWING_ON,
     SWING_OFF,
-    ATTR_TARGET_TEMP_HIGH,
-    ATTR_TARGET_TEMP_LOW,
-    ATTR_TARGET_TEMP_STEP,
 )
 from homeassistant.const import (
     ATTR_TEMPERATURE,
