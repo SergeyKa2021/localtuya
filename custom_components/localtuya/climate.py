@@ -230,6 +230,8 @@ class LocaltuyaClimate(LocalTuyaEntity, ClimateEntity):
         self._has_presets = self.has_config(CONF_ECO_DP) or self.has_config(
             CONF_PRESET_DP
         )
+        self._attr_target_temperature_high = 45.0 
+        self._attr_target_temperature_low = 5.0
         _LOGGER.debug("Initialized climate [%s]", self.name)
 
     @property
